@@ -1,0 +1,10 @@
+2024-03-12 14:36:12.893 [info] Extension host with pid 3052 started
+2024-03-12 14:36:12.930 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-03-12 14:36:12.959 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-03-12 14:36:12.960 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-12 14:36:13.169 [info] Eager extensions activated
+2024-03-12 14:36:13.169 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 14:36:13.170 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 14:36:26.172 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-12 14:38:55.474 [info] Extension host terminating: received terminate message from renderer
+2024-03-12 14:38:55.488 [info] Extension host with pid 3052 exiting with code 0

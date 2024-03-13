@@ -1,0 +1,221 @@
+2024-03-12 17:38:25.295 [info] Log level: Info
+2024-03-12 17:38:25.295 [info] Validating found git in: "git"
+2024-03-12 17:38:25.295 [info] Using git "2.34.1" from "git"
+2024-03-12 17:38:25.295 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-12 17:38:25.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:38:25.295 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-12 17:38:25.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:38:25.295 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-12 17:38:25.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:38:25.295 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-12 17:38:25.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:38:25.295 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-12 17:38:25.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:38:25.295 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-12 17:38:25.295 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:40:05.355 [info] > git rev-parse --show-toplevel [1ms]
+2024-03-12 17:40:05.362 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-03-12 17:40:05.373 [info] Open repository: /home/linux/mysql
+2024-03-12 17:40:05.391 [info] No remotes found in the git config file.
+2024-03-12 17:40:05.392 [info] > git config --get commit.template [13ms]
+2024-03-12 17:40:05.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-12 17:40:05.394 [warning] No such branch: master.
+2024-03-12 17:40:05.408 [info] > git status -z -uall [9ms]
+2024-03-12 17:40:05.423 [info] > git config --get commit.template [3ms]
+2024-03-12 17:40:05.428 [info] No remotes found in the git config file.
+2024-03-12 17:40:05.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:40:05.430 [warning] No such branch: master.
+2024-03-12 17:40:05.436 [info] > git status -z -uall [2ms]
+2024-03-12 17:40:05.732 [info] > git show --textconv :html/docker-compose.yml [6ms]
+2024-03-12 17:40:05.734 [info] > git ls-files --stage -- /home/linux/mysql/html/docker-compose.yml [3ms]
+2024-03-12 17:40:05.917 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-12 17:40:44.346 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-12 17:40:44.346 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:40:44.856 [info] > git check-ignore -v -z --stdin [4ms]
+2024-03-12 17:40:47.278 [info] > git add -A -- /home/linux/mysql/html/docker-compose.yml /home/linux/mysql/html/sql_data/#ib_16384_0.dblwr /home/linux/mysql/html/sql_data/#ib_16384_1.dblwr /home/linux/mysql/html/sql_data/auto.cnf /home/linux/mysql/html/sql_data/binlog.000001 /home/linux/mysql/html/sql_data/binlog.000002 /home/linux/mysql/html/sql_data/binlog.000003 /home/linux/mysql/html/sql_data/binlog.index /home/linux/mysql/html/sql_data/ca-key.pem /home/linux/mysql/html/sql_data/ca.pem /home/linux/mysql/html/sql_data/client-cert.pem /home/linux/mysql/html/sql_data/client-key.pem /home/linux/mysql/html/sql_data/ib_buffer_pool /home/linux/mysql/html/sql_data/ibdata1 /home/linux/mysql/html/sql_data/mysql.ibd /home/linux/mysql/html/sql_data/mysql.sock /home/linux/mysql/html/sql_data/private_key.pem /home/linux/mysql/html/sql_data/public_key.pem /home/linux/mysql/html/sql_data/server-cert.pem /home/linux/mysql/html/sql_data/server-key.pem /home/linux/mysql/html/sql_data/undo_001 /home/linux/mysql/html/sql_data/undo_002 [5ms]
+2024-03-12 17:40:47.279 [info] error: open("html/sql_data/#ib_16384_0.dblwr"): Permission denied
+error: unable to index file 'html/sql_data/#ib_16384_0.dblwr'
+fatal: adding files failed
+2024-03-12 17:40:47.288 [info] No remotes found in the git config file.
+2024-03-12 17:40:47.289 [info] > git config --get commit.template [5ms]
+2024-03-12 17:40:47.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:40:47.290 [warning] No such branch: master.
+2024-03-12 17:40:47.294 [info] > git status -z -uall [1ms]
+2024-03-12 17:41:14.277 [warning] ENOENT: no such file or directory, open '/home/linux/mysql/.git/HEAD'
+2024-03-12 17:41:14.281 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/linux/mysql/.git/config'
+2024-03-12 17:41:14.285 [info] > git remote --verbose [4ms]
+2024-03-12 17:41:14.286 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:41:14.288 [info] > git symbolic-ref --short HEAD [12ms]
+2024-03-12 17:41:14.288 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:41:14.297 [warning] ENOENT: no such file or directory, open '/home/linux/mysql/.git/HEAD'
+2024-03-12 17:41:14.301 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/linux/mysql/.git/config'
+2024-03-12 17:41:14.306 [info] > git config --get commit.template [21ms]
+2024-03-12 17:41:14.307 [info] > git remote --verbose [6ms]
+2024-03-12 17:41:14.307 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:41:14.308 [info] > git symbolic-ref --short HEAD [11ms]
+2024-03-12 17:41:14.308 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:41:14.312 [info] > git rev-parse HEAD [21ms]
+2024-03-12 17:41:14.312 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:41:14.314 [info] > git config --get commit.template [8ms]
+2024-03-12 17:41:14.315 [info] > git rev-parse HEAD [3ms]
+2024-03-12 17:41:14.315 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:41:23.489 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-12 17:41:23.500 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-12 17:41:23.507 [info] Open repository: /home/linux/mysql
+2024-03-12 17:41:23.518 [info] No remotes found in the git config file.
+2024-03-12 17:41:23.519 [info] > git config --get commit.template [7ms]
+2024-03-12 17:41:23.520 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-03-12 17:41:23.520 [warning] No such branch: master.
+2024-03-12 17:41:23.527 [info] > git status -z -uall [3ms]
+2024-03-12 17:41:23.546 [info] No remotes found in the git config file.
+2024-03-12 17:41:23.546 [info] > git config --get commit.template [8ms]
+2024-03-12 17:41:23.550 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-03-12 17:41:23.550 [warning] No such branch: master.
+2024-03-12 17:41:23.556 [info] > git status -z -uall [2ms]
+2024-03-12 17:41:23.601 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-12 17:41:23.601 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:41:24.155 [info] > git check-ignore -v -z --stdin [1ms]
+2024-03-12 17:41:37.617 [info] > git add -A -- /home/linux/mysql/html/docker-compose.yml /home/linux/mysql/html/sql_data/#ib_16384_0.dblwr /home/linux/mysql/html/sql_data/#ib_16384_1.dblwr /home/linux/mysql/html/sql_data/auto.cnf /home/linux/mysql/html/sql_data/binlog.000001 /home/linux/mysql/html/sql_data/binlog.000002 /home/linux/mysql/html/sql_data/binlog.000003 /home/linux/mysql/html/sql_data/binlog.index /home/linux/mysql/html/sql_data/ca-key.pem /home/linux/mysql/html/sql_data/ca.pem /home/linux/mysql/html/sql_data/client-cert.pem /home/linux/mysql/html/sql_data/client-key.pem /home/linux/mysql/html/sql_data/ib_buffer_pool /home/linux/mysql/html/sql_data/ibdata1 /home/linux/mysql/html/sql_data/mysql.ibd /home/linux/mysql/html/sql_data/mysql.sock /home/linux/mysql/html/sql_data/private_key.pem /home/linux/mysql/html/sql_data/public_key.pem /home/linux/mysql/html/sql_data/server-cert.pem /home/linux/mysql/html/sql_data/server-key.pem /home/linux/mysql/html/sql_data/undo_001 /home/linux/mysql/html/sql_data/undo_002 [4ms]
+2024-03-12 17:41:37.618 [info] error: open("html/sql_data/#ib_16384_0.dblwr"): Permission denied
+error: unable to index file 'html/sql_data/#ib_16384_0.dblwr'
+fatal: adding files failed
+2024-03-12 17:41:37.630 [info] No remotes found in the git config file.
+2024-03-12 17:41:37.631 [info] > git config --get commit.template [7ms]
+2024-03-12 17:41:37.632 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:41:37.632 [warning] No such branch: master.
+2024-03-12 17:41:37.639 [info] > git status -z -uall [1ms]
+2024-03-12 17:42:03.072 [info] > git check-ignore -v -z --stdin [17ms]
+2024-03-12 17:42:20.326 [info] > git add -A -- /home/linux/mysql/html/docker-compose.yml [3ms]
+2024-03-12 17:42:20.336 [info] No remotes found in the git config file.
+2024-03-12 17:42:20.337 [info] > git config --get commit.template [5ms]
+2024-03-12 17:42:20.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:42:20.338 [warning] No such branch: master.
+2024-03-12 17:42:20.343 [info] > git status -z -uall [2ms]
+2024-03-12 17:42:21.670 [info] > git config --get commit.template [5ms]
+2024-03-12 17:42:21.675 [info] No remotes found in the git config file.
+2024-03-12 17:42:21.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:42:21.677 [warning] No such branch: master.
+2024-03-12 17:42:21.687 [info] > git status -z -uall [6ms]
+2024-03-12 17:42:21.689 [info] > git ls-files --stage -- /home/linux/mysql/html/docker-compose.yml [3ms]
+2024-03-12 17:42:21.698 [info] > git cat-file -s 52e58362fdbec4e3b1767f8fa6e544ea2bc58813 [5ms]
+2024-03-12 17:42:21.708 [info] > git show --textconv :html/docker-compose.yml [2ms]
+2024-03-12 17:43:22.573 [info] No remotes found in the git config file.
+2024-03-12 17:43:22.574 [info] > git config --get commit.template [7ms]
+2024-03-12 17:43:22.576 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:43:22.576 [warning] No such branch: master.
+2024-03-12 17:43:22.583 [info] > git status -z -uall [2ms]
+2024-03-12 17:43:23.302 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-12 17:43:28.562 [info] > git check-ignore -v -z --stdin [4ms]
+2024-03-12 17:43:34.861 [info] > git add -A -- /home/linux/mysql/html/docker-compose.yml /home/linux/mysql/html/sql_data/#ib_16384_0.dblwr /home/linux/mysql/html/sql_data/#ib_16384_1.dblwr /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo10 /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo11_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo12_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo13_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo14_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo15_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo16_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo17_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo18_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo19_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo20_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo21_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo22_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo23_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo24_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo25_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo26_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo27_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo28_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo29_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo30_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo31_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo32_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo33_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo34_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo35_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo36_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo37_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo38_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo39_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo40_tmp /home/linux/mysql/html/sql_data/#innodb_redo/#ib_redo41_tmp /home/linux/mysql/html/sql_data/auto.cnf /home/linux/mysql/html/sql_data/binlog.000001 /home/linux/mysql/html/sql_data/binlog.000002 /home/linux/mysql/html/sql_data/binlog.000003 /home/linux/mysql/html/sql_data/binlog.index /home/linux/mysql/html/sql_data/ca-key.pem /home/linux/mysql/html/sql_data/ca.pem /home/linux/mysql/html/sql_data/client-cert.pem /home/linux/mysql/html/sql_data/client-key.pem /home/linux/mysql/html/sql_data/ib_buffer_pool /home/linux/mysql/html/sql_data/ibdata1 /home/linux/mysql/html/sql_data/mysql.ibd /home/linux/mysql/html/sql_data/mysql.sock /home/linux/mysql/html/sql_data/mysql/general_log.CSM /home/linux/mysql/html/sql_data/mysql/general_log.CSV /home/linux/mysql/html/sql_data/mysql/general_log_215.sdi /home/linux/mysql/html/sql_data/mysql/slow_log.CSM /home/linux/mysql/html/sql_data/mysql/slow_log.CSV /home/linux/mysql/html/sql_data/mysql/slow_log_216.sdi /home/linux/mysql/html/sql_data/performance_schema/accounts_147.sdi /home/linux/mysql/html/sql_data/performance_schema/binary_log_trans_191.sdi /home/linux/mysql/html/sql_data/performance_schema/cond_instances_82.sdi /home/linux/mysql/html/sql_data/performance_schema/data_lock_waits_163.sdi /home/linux/mysql/html/sql_data/performance_schema/data_locks_162.sdi /home/linux/mysql/html/sql_data/performance_schema/error_log_83.sdi /home/linux/mysql/html/sql_data/performance_schema/events_errors_su_141.sdi /home/linux/mysql/html/sql_data/performance_schema/events_errors_su_142.sdi /home/linux/mysql/html/sql_data/performance_schema/events_errors_su_143.sdi /home/linux/mysql/html/sql_data/performance_schema/events_errors_su_144.sdi /home/linux/mysql/html/sql_data/performance_schema/events_errors_su_145.sdi /home/linux/mysql/html/sql_data/performance_schema/events_stages_cu_113.sdi /home/linux/mysql/html/sql_data/performance_schema/events_stages_hi_114.sdi /home/linux/mysql/html/sql_data/performance_schema/events_stages_hi_115.sdi /home/linux/mysql/html/sql_data/performance_schema/events_stages_su_116.sdi /home/linux/mysql/html/sql_data/performance_schema/events_stages_su_117.sdi /home/linux/mysql/html/sql_data/performance_schema/events_stages_su_118.sdi /home/linux/mysql/html/sql_data/performance_schema/events_stages_su_119.sdi /home/linux/mysql/html/sql_data/performance_schema/events_stages_su_120.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_121.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_122.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_123.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_124.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_125.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_126.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_127.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_128.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_129.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_130.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_131.sdi /home/linux/mysql/html/sql_data/performance_schema/events_statement_132.sdi /home/linux/mysql/html/sql_data/performance_schema/events_transacti_133.sdi /home/linux/mysql/html/sql_data/performance_schema/events_transacti_134.sdi /home/linux/mysql/html/sql_data/performance_schema/events_transacti_135.sdi /home/linux/mysql/html/sql_data/performance_schema/events_transacti_136.sdi /home/linux/mysql/html/sql_data/performance_schema/events_transacti_137.sdi /home/linux/mysql/html/sql_data/performance_schema/events_transacti_138.sdi /home/linux/mysql/html/sql_data/performance_schema/events_transacti_139.sdi /home/linux/mysql/html/sql_data/performance_schema/events_transacti_140.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_cur_84.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_his_85.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_his_86.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_sum_87.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_sum_88.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_sum_89.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_sum_90.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_sum_91.sdi /home/linux/mysql/html/sql_data/performance_schema/events_waits_sum_92.sdi /home/linux/mysql/html/sql_data/performance_schema/file_instances_93.sdi /home/linux/mysql/html/sql_data/performance_schema/file_summary_by__94.sdi /home/linux/mysql/html/sql_data/performance_schema/file_summary_by__95.sdi /home/linux/mysql/html/sql_data/performance_schema/global_status_183.sdi /home/linux/mysql/html/sql_data/performance_schema/global_variables_186.sdi /home/linux/mysql/html/sql_data/performance_schema/host_cache_96.sdi /home/linux/mysql/html/sql_data/performance_schema/hosts_148.sdi /home/linux/mysql/html/sql_data/performance_schema/keyring_componen_193.sdi /home/linux/mysql/html/sql_data/performance_schema/keyring_keys_154.sdi /home/linux/mysql/html/sql_data/performance_schema/log_status_176.sdi /home/linux/mysql/html/sql_data/performance_schema/memory_summary_b_156.sdi /home/linux/mysql/html/sql_data/performance_schema/memory_summary_b_157.sdi /home/linux/mysql/html/sql_data/performance_schema/memory_summary_b_158.sdi /home/linux/mysql/html/sql_data/performance_schema/memory_summary_b_159.sdi /home/linux/mysql/html/sql_data/performance_schema/memory_summary_g_155.sdi /home/linux/mysql/html/sql_data/performance_schema/metadata_locks_161.sdi /home/linux/mysql/html/sql_data/performance_schema/mutex_instances_97.sdi /home/linux/mysql/html/sql_data/performance_schema/objects_summary__98.sdi /home/linux/mysql/html/sql_data/performance_schema/performance_time_99.sdi /home/linux/mysql/html/sql_data/performance_schema/persisted_variab_189.sdi /home/linux/mysql/html/sql_data/performance_schema/prepared_stateme_177.sdi /home/linux/mysql/html/sql_data/performance_schema/processlist_100.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_appl_167.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_appl_168.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_appl_169.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_appl_170.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_appl_172.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_appl_173.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_asyn_174.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_asyn_175.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_conn_164.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_conn_166.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_grou_165.sdi /home/linux/mysql/html/sql_data/performance_schema/replication_grou_171.sdi /home/linux/mysql/html/sql_data/performance_schema/rwlock_instances_101.sdi /home/linux/mysql/html/sql_data/performance_schema/session_account__153.sdi /home/linux/mysql/html/sql_data/performance_schema/session_connect__152.sdi /home/linux/mysql/html/sql_data/performance_schema/session_status_184.sdi /home/linux/mysql/html/sql_data/performance_schema/session_variable_187.sdi /home/linux/mysql/html/sql_data/performance_schema/setup_actors_102.sdi /home/linux/mysql/html/sql_data/performance_schema/setup_consumers_103.sdi /home/linux/mysql/html/sql_data/performance_schema/setup_instrument_104.sdi /home/linux/mysql/html/sql_data/performance_schema/setup_meters_105.sdi /home/linux/mysql/html/sql_data/performance_schema/setup_metrics_106.sdi /home/linux/mysql/html/sql_data/performance_schema/setup_objects_107.sdi /home/linux/mysql/html/sql_data/performance_schema/setup_threads_108.sdi /home/linux/mysql/html/sql_data/performance_schema/socket_instances_149.sdi /home/linux/mysql/html/sql_data/performance_schema/socket_summary_b_150.sdi /home/linux/mysql/html/sql_data/performance_schema/socket_summary_b_151.sdi /home/linux/mysql/html/sql_data/performance_schema/status_by_accoun_179.sdi /home/linux/mysql/html/sql_data/performance_schema/status_by_host_180.sdi /home/linux/mysql/html/sql_data/performance_schema/status_by_thread_181.sdi /home/linux/mysql/html/sql_data/performance_schema/status_by_user_182.sdi /home/linux/mysql/html/sql_data/performance_schema/table_handles_160.sdi /home/linux/mysql/html/sql_data/performance_schema/table_io_waits_s_109.sdi /home/linux/mysql/html/sql_data/performance_schema/table_io_waits_s_110.sdi /home/linux/mysql/html/sql_data/performance_schema/table_lock_waits_111.sdi /home/linux/mysql/html/sql_data/performance_schema/threads_112.sdi /home/linux/mysql/html/sql_data/performance_schema/tls_channel_stat_192.sdi /home/linux/mysql/html/sql_data/performance_schema/user_defined_fun_190.sdi /home/linux/mysql/html/sql_data/performance_schema/user_variables_b_178.sdi /home/linux/mysql/html/sql_data/performance_schema/users_146.sdi /home/linux/mysql/html/sql_data/performance_schema/variables_by_thr_185.sdi /home/linux/mysql/html/sql_data/performance_schema/variables_info_188.sdi /home/linux/mysql/html/sql_data/private_key.pem /home/linux/mysql/html/sql_data/public_key.pem /home/linux/mysql/html/sql_data/server-cert.pem /home/linux/mysql/html/sql_data/server-key.pem /home/linux/mysql/html/sql_data/sys/sys_config.ibd /home/linux/mysql/html/sql_data/undo_001 /home/linux/mysql/html/sql_data/undo_002 [1584ms]
+2024-03-12 17:43:34.873 [info] No remotes found in the git config file.
+2024-03-12 17:43:34.874 [info] > git config --get commit.template [6ms]
+2024-03-12 17:43:34.875 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:43:34.875 [warning] No such branch: master.
+2024-03-12 17:43:34.883 [info] > git status -z -uall [3ms]
+2024-03-12 17:43:36.048 [info] No remotes found in the git config file.
+2024-03-12 17:43:36.049 [info] > git config --get commit.template [7ms]
+2024-03-12 17:43:36.050 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:43:36.050 [warning] No such branch: master.
+2024-03-12 17:43:36.059 [info] > git status -z -uall [3ms]
+2024-03-12 17:43:36.152 [info] > git ls-files --stage -- /home/linux/mysql/html/docker-compose.yml [3ms]
+2024-03-12 17:43:36.216 [info] > git cat-file -s 52e58362fdbec4e3b1767f8fa6e544ea2bc58813 [56ms]
+2024-03-12 17:43:36.234 [info] > git show --textconv :html/docker-compose.yml [2ms]
+2024-03-12 17:43:41.868 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [6ms]
+2024-03-12 17:43:41.868 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-03-12 17:43:41.876 [info] > git config --get-all user.name [3ms]
+2024-03-12 17:43:41.888 [info] No remotes found in the git config file.
+2024-03-12 17:43:41.889 [info] > git config --get commit.template [7ms]
+2024-03-12 17:43:41.890 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:43:41.890 [warning] No such branch: master.
+2024-03-12 17:43:41.900 [info] > git status -z -uall [6ms]
+2024-03-12 17:43:44.822 [info] No remotes found in the git config file.
+2024-03-12 17:43:44.824 [info] > git config --get commit.template [9ms]
+2024-03-12 17:43:44.824 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:43:44.825 [warning] No such branch: master.
+2024-03-12 17:43:44.839 [info] > git status -z -uall [9ms]
+2024-03-12 17:43:44.844 [info] > git ls-files --stage -- /home/linux/mysql/html/docker-compose.yml [6ms]
+2024-03-12 17:43:44.854 [info] > git cat-file -s 52e58362fdbec4e3b1767f8fa6e544ea2bc58813 [3ms]
+2024-03-12 17:43:44.868 [info] > git show --textconv :html/docker-compose.yml [2ms]
+2024-03-12 17:44:32.954 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [5ms]
+2024-03-12 17:44:32.954 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-03-12 17:44:32.963 [info] > git config --get-all user.name [2ms]
+2024-03-12 17:44:32.975 [info] No remotes found in the git config file.
+2024-03-12 17:44:32.975 [info] > git config --get commit.template [6ms]
+2024-03-12 17:44:32.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:44:32.976 [warning] No such branch: master.
+2024-03-12 17:44:32.984 [info] > git status -z -uall [2ms]
+2024-03-12 17:44:57.043 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-12 17:44:57.043 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:45:08.097 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-12 17:45:08.098 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-12 17:45:13.098 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [20ms]
+2024-03-12 17:45:13.105 [info] > git config --get commit.template [2ms]
+2024-03-12 17:45:13.128 [info] No remotes found in the git config file.
+2024-03-12 17:45:13.131 [info] > git config --get commit.template [18ms]
+2024-03-12 17:45:13.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-12 17:45:13.144 [info] > git status -z -uall [3ms]
+2024-03-12 17:45:13.210 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [4ms]
+2024-03-12 17:45:13.230 [info] > git config --local branch.master.vscode-merge-base [15ms]
+2024-03-12 17:45:13.230 [warning] git config failed: Failed to execute git
+2024-03-12 17:45:13.237 [info] > git config --get commit.template [8ms]
+2024-03-12 17:45:13.239 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [4ms]
+2024-03-12 17:45:13.248 [info] No remotes found in the git config file.
+2024-03-12 17:45:13.250 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2024-03-12 17:45:13.250 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-03-12 17:45:13.251 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-12 17:45:13.261 [info] > git status -z -uall [3ms]
+2024-03-12 17:45:13.283 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [6ms]
+2024-03-12 17:45:13.293 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-03-12 17:45:13.293 [warning] git config failed: Failed to execute git
+2024-03-12 17:45:13.301 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [3ms]
+2024-03-12 17:45:13.310 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-03-12 17:45:13.310 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-03-12 17:45:13.324 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-03-12 17:45:13.332 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-03-12 17:45:13.332 [warning] git config failed: Failed to execute git
+2024-03-12 17:45:13.342 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [4ms]
+2024-03-12 17:45:13.348 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-03-12 17:45:13.348 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-03-12 17:45:14.307 [info] No remotes found in the git config file.
+2024-03-12 17:45:14.308 [info] > git config --get commit.template [8ms]
+2024-03-12 17:45:14.309 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-03-12 17:45:14.316 [info] > git status -z -uall [2ms]
+2024-03-12 17:45:14.400 [info] > git ls-files --stage -- /home/linux/mysql/html/docker-compose.yml [3ms]
+2024-03-12 17:45:14.406 [info] > git cat-file -s 52e58362fdbec4e3b1767f8fa6e544ea2bc58813 [2ms]
+2024-03-12 17:45:14.418 [info] > git show --textconv :html/docker-compose.yml [3ms]
+2024-03-12 17:45:50.739 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-03-12 17:45:50.749 [info] > git config --local branch.master.vscode-merge-base [6ms]
+2024-03-12 17:45:50.749 [warning] git config failed: Failed to execute git
+2024-03-12 17:45:50.758 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [3ms]
+2024-03-12 17:45:50.765 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-03-12 17:45:50.766 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-03-12 17:45:50.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master [2ms]
+2024-03-12 17:45:50.787 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-03-12 17:45:50.787 [warning] git config failed: Failed to execute git
+2024-03-12 17:45:50.796 [info] > git reflog refs/heads/master --grep-reflog=branch: Created from *. [2ms]
+2024-03-12 17:45:50.803 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-03-12 17:45:50.804 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref

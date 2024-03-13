@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Bearded Theme Black & Ruby",
+    "remote.SSH.remotePlatform": {
+        "10.163.0.241": "linux",
+        "10.163.0.99": "linux",
+        "10.163.0.227": "linux"
+    }
+}

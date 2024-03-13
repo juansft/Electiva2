@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "remote.SSH.remotePlatform": {
+        "10.162.39.245": "linux",
+        "10.162.33.154": "linux",
+        "10.162.38.53": "linux"
+    }
+}

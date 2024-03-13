@@ -1,0 +1,15 @@
+2024-03-12 14:39:01.008 [info] Extension host with pid 3212 started
+2024-03-12 14:39:01.045 [info] Lock '/home/linux/.vscode-server/data/User/workspaceStorage/101c279a05caf0828b4895260c76f5a4/vscode.lock': Lock acquired.
+2024-03-12 14:39:01.072 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-03-12 14:39:01.105 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-03-12 14:39:01.197 [info] Eager extensions activated
+2024-03-12 14:39:01.198 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 14:39:01.199 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-03-12 14:39:02.436 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-03-12 14:50:29.222 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2024-03-12 14:50:29.222 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-03-12 16:17:44.579 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-03-12 16:23:23.811 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-03-12 16:23:23.813 [info] Lock '/home/linux/.vscode-server/data/User/workspaceStorage/101c279a05caf0828b4895260c76f5a4/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-03-12 16:23:23.840 [info] Extension host with pid 3212 exiting with code 0

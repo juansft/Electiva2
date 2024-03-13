@@ -1,0 +1,5 @@
+[user]
+	email = server@server.com
+	name = server
+[safe]
+	directory = /home/linux
